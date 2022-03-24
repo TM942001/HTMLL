@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+</head>
+<body bgcolor="pink">
+
+    <H2>Patient Registration Form</H2>
+    
+    <label>Firstname:</label>
+    <input type="text" name="fn" value="" placeholder="Enter Your Firstname Here!"/><br><br>
+
+    <label>Lasttname:</label>
+    <input type="text" name="ln" value="" placeholder="Enter Your Lastname Here!"/><br><br>
+
+    <label>UserID:</label>
+    <input type="email" name="email" value="email"/><br><br>
+
+    <label>Password:</label>
+    <input type="password" name="pw" value="password" maxlength="8"/><br><br>
+
+    <label>Address:</label><br>
+    <textarea id="ta" rows="8" column="15"></textarea><br><br>
+    <label>City:</label>
+    <select id="city" name="city" size="0">
+        <option>Pune</option>
+        <option>Nashik</option>
+        <option>Nagar</option>
+        <option>Satara</option>
+    </select><br><br>
+
+    <label>State:</label>
+    <select id="state" name="state" size="0">
+        <option>Maharshtra</option>
+        <option>Goa</option>
+        <option>Delhi</option>
+        <option>UP</option>
+    </select><br><br>
+ 
+    <label>Country Code:</label>
+    <input type="text" pattern="[A-Za-z]{3}"/><br><br>
+
+    <label>Gender:</label>
+    Male<input type="radio" name="gender"/>
+    Female<input type="radio" name="gender"/><br><br>
+
+    <label>D.O.B.</label>
+    <input type="date" name="dob"/><br><br>
+
+    <label>Add Prescription:</label>
+    <input type="file" name="file"/><br><br>
+
+    <label>Book Appointment:</label>
+    <select>
+        <option>Dr.Gunjal</option>
+        <option>Dr.Deshmukh</option>
+        <option>Dr.Supe</option>
+        <option>Dr.Shinde</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit"/>
+    <input type="reset" value="Clear"/>
+
+
+
+
+
+    
+</body>
+</html>
